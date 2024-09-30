@@ -1,0 +1,93 @@
+/* mystyle.css */
+
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Top text table */
+.toptekst {
+    background-color: #f7ff89;
+    padding: 10px;
+    border-bottom: 1px solid #dee2e6;
+}
+
+.toptekst a {
+    text-decoration: none;
+    color: #0d4077;
+}
+
+.toptekst a:hover {
+    text-decoration: underline;
+}
+
+/* Main content */
+.text-center {
+    margin: 20px 0;
+    color: purple
+}
+
+.text-center strong {
+    font-size: 1.2em;
+}
+
+/* Address table */
+table {
+    margin: 20px 0;
+    width: 100%;
+}
+
+table td {
+    padding: 10px;
+    vertical-align: top;
+}
+
+table td a {
+    text-decoration: none;
+    color: #00438b;
+}
+
+table td a:hover {
+    text-decoration: underline;
+}
+
+/* Teaching sections */
+.container .row .col-sm-4 {
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.container .row .col-sm-4 p {
+    margin: 0;
+}
+
+.container .row .col-sm-4 a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+.container .row .col-sm-4 a:hover {
+    text-decoration: underline;
+}
+
+    /* Footer */
+    .footer {
+        background-color: #f8f9fa;
+        padding: 10px 0;
+        border-top: 1px solid #dee2e6;
+    }
+
+.footer .container {
+    text-align: center;
+}
+
+.footer .container a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+.footer .container a:hover {
+    text-decoration: underline;
+}
